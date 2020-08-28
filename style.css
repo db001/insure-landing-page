@@ -31,5 +31,31 @@ body {
 
 .navbar-brand img {
   height: auto;
-  width: 64px;
+  width: 96px;
+  padding-bottom: 0.5rem;
+}
+
+.nav-link {
+  color: var(--dark-grayish-violet);
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: var(--very-dark-violet);
+}
+
+.nav-link.primary-link {
+  border: 1px solid var(--very-dark-violet);
+  color: var(--very-dark-violet);
+}
+
+.nav-link.primary-link:hover {
+  background-color: var(--very-dark-violet);
+  color: var(--very-light-gray);
 }
